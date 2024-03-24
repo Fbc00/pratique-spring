@@ -1,17 +1,17 @@
-HELP.md
+spring/HELP.md
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+!spring/.mvn/wrapper/maven-wrapper.jar
+!**/spring/src/main/**/target/
+!**/spring/src/test/**/target/
 
 ### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+spring/.apt_generated
+spring/.classpath
+spring/.factorypath
+spring/.project
+spring/.settings
+spring/.springBeans
+spring/.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -20,14 +20,17 @@ target/
 *.ipr
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+spring/nbproject/private/
+spring/nbbuild/
+spring/dist/
+spring/nbdist/
+spring/.nb-gradle/
+spring/build/
+!**/spring/src/main/**/build/
+!**/spring/src/test/**/build/
 
 ### VS Code ###
 .vscode/
+
+### H2
+data
