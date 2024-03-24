@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  postgres_pratique:
+    image: postgis/postgis:14-3.2-alpine
+    volumes:
+      - .dbdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=pratique
+      - POSTGRES_USER=pratique
+      - POSTGRES_PASSWORD=password
+    ports:
+      - 5432:5432
